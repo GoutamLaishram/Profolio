@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CodeMug Smart Coffee Cup - Feedback Form</h1>
+        <p>Thank you for helping us improve our product!</p>        
+    </header>
+    <main>
+        <form >
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <p>How often do you use your CodeMug?</p>
+            <input type="radio" id="daily" name="usage" value="daily" required>
+            <label for="daily">Daily</label><br>
+            <input type="radio" id="weekly" name="usage" value="weekly">
+            <label for="weekly"> A few times a week</label><br>
+            <input type="radio" id="monthly" name="usage" value="monthly">
+            <label for="monthly"> A few times a month</label><br>
+            <p>Which features do you use most? (Check all that apply)</p>
+            <input type="checkbox" id="temp" name="feature" value="temp">
+            <label for="temp">Temperature Control</label><br>
+            <input type="checkbox" id="app" name="feature" value="app">
+            <label for="app">Mobile App Integration</label><br>
+            <input type="checkbox" id="led" name="feature" value="led">
+            <label for="led">LED Display</label><br>
+            <p>Overall, how satisfied are you with the CodeMug?</p>
+            <select name="" id="">
+                <option value="Very Satisfied">Satisfied</option>
+                <option value="Satisfied">Satisfied</option>
+                <option value="Neutral">Neutral</option>
+                <option value="dissatisfied">Unsatisfied</option>
+            </select>
+            <p>Do you have any suggestions for improvement?</p>
+            <textarea name="suggestions" id="suggestions" cols="30" rows="5" placeholder="Your suggestions here..."></textarea><br><br>
+        </form>
+    </main>
+    <footer>
+        <button type="submit">Submit Feedback</button>
+    </footer>
+</body>
+</html>
